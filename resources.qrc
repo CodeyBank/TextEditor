@@ -1,0 +1,65 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/aboutIcon.png</file>
+        <file>images/aboutQtIcon.png</file>
+        <file>images/copyIcon.png</file>
+        <file>images/cutIcon.png</file>
+        <file>images/pasteIcon.png</file>
+        <file>images/quitIcon.png</file>
+        <file>images/redoIcon.png</file>
+        <file>images/undoIcon.png</file>
+        <file>images/qt.png</file>
+        <file>images/remove.png</file>
+        <file>images/sign-out.png</file>
+        <file>images/open.png</file>
+        <file>images/open-folder-with-document.png</file>
+        <file>images/preference.png</file>
+        <file>images/qticon.png</file>
+        <file>images/man.png</file>
+        <file>images/user.png</file>
+        <file>images/schedule.png</file>
+        <file>images/writer.png</file>
+        <file>images/viewer.png</file>
+        <file>images/pdf.png</file>
+        <file>images/file.png</file>
+        <file>images/floppy-disk.png</file>
+        <file>images/open-folder.png</file>
+        <file>images/folder.png</file>
+        <file>images/contract.png</file>
+        <file>images/contract (1).png</file>
+        <file>images/swipe-left.png</file>
+        <file>images/left.png</file>
+        <file>images/swipe-right.png</file>
+        <file>images/hamburger.png</file>
+        <file>images/carousel.png</file>
+        <file>images/slideshow.png</file>
+        <file>images/cross-mark.png</file>
+        <file>images/close.png</file>
+        <file>images/back-button.png</file>
+        <file>images/next.png</file>
+        <file>images/right-arrow.png</file>
+        <file>images/left-arrow (1).png</file>
+        <file>images/left-arrow.png</file>
+    </qresource>
+    <qresource prefix="/themes">
+        <file>themes/AMOLED.css</file>
+        <file>themes/Aqua.css</file>
+        <file>themes/ConsoleStyle.css</file>
+        <file>themes/demo.css</file>
+        <file>themes/ElegantDark.css</file>
+        <file>themes/ManjaroMix.css</file>
+        <file>themes/MaterialDark.css</file>
+        <file>themes/Ubuntu.css</file>
+    </qresource>
+    <qresource prefix="/slideshowImages">
+        <file>slideshow/image1.jfif</file>
+        <file>slideshow/image2.jfif</file>
+        <file>slideshow/image3.jfif</file>
+        <file>slideshow/image5.jfif</file>
+        <file>slideshow/image6.jfif</file>
+        <file>slideshow/image7.jfif</file>
+        <file>slideshow/image8.jfif</file>
+        <file>slideshow/image10.jfif</file>
+        <file>slideshow/minions.jfif</file>
+    </qresource>
+</RCC>

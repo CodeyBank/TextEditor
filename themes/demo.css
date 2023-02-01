@@ -1,0 +1,328 @@
+QTextEdit{
+	background-color: rgb(27, 29, 35);
+	border: 0px;
+	border-radius: 9px;
+	color: white;
+	font: 25 10pt "Montserrat Light";
+}
+QTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}
+
+/* ------------------Search Bar on Dashboard Page---------------------------------*/
+QLineEdit#searchBar{
+	background-color: rgb(35, 35, 35);
+	border: 0px solid;
+	color: white;
+	font: 25 10pt "Montserrat Light";
+}
+QLineEdit:hover#searchBar{
+ border: 1px solid white;
+}
+/* ------------------End of Search Bar on Dashboard Page---------------------------------*/
+
+/* ----------------------Special For all Data Labels-----------------------------*/
+QLabel#infoLableFrame{
+	border-radius: 20px;
+	background-color: rgb(68, 71, 90);
+	font: 25 8pt "Roboto Thin";
+	color: white;
+}
+/* ------------------End of Data Labels ------------------------------------------*/
+
+/* ----------------Dashboard tools--------------------------*/
+QFrame#dashboardTools QPushButton{
+	border-radius: 20px;
+	border: 2px solid white;
+}
+QFrame#dashboardTools  QPushButton:hover{
+	background-color: rgb(81, 81, 122);
+}
+/* --------------------End of DashBoard Tools-------------------------------*/
+
+/* --------------------Side Buttons Books-------------------------------*/
+QFrame#sideBtnsBooks QPushButton{
+	border-radius: 20px;
+	border: 2px solid white;
+}
+QFrame#sideBtnsBooks QPushButton:hover{
+	background-color: rgb(81, 81, 122);
+}
+QFrame#sideBtnsBooks QPushButton:Pressed{
+	background-color: rgb(39, 43, 63);
+}
+/* --------------------End of side buttons add books-------------------------------*/
+
+/* --------------------GROUPBOX-------------------------------*/
+QGroupBox{
+    margin-top: 5ex;
+	background:none;
+	background-color:rgba(35,35,35,50);
+	border-radius: 10px;
+	border: 0px solid rgba(35,35,35,50);
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center; /* position at the top center */
+    padding: 10px 10px;
+    background-color:qlineargradient(spread:pad, x1:0.125, y1:0.562409, x2:0.51, y2:0.95, stop:0.00627353
+    rgba(178, 138, 236, 255), stop:0.984012 rgba(98, 114, 164, 255));
+	border-radius:8px;
+	font: 25 14pt "Roboto Light";
+	color:white;
+}
+/* ----------------------------lINE EDITS--------------------------------------------------*/
+
+QLineEdit {
+	background-color: #1b1d23;
+	border-radius: 5px;
+	border: 2px solid rgb(27, 29, 35);
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}
+/* --------------------QLineEdit-------------------------------*/
+
+/* -------------------------------SCROLL BARS-------------------- */
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(52, 59, 72);
+    height: 14px;
+    margin: 0px 21px 0 21px;
+	border-radius: 0px;
+}
+QScrollBar::handle:horizontal {
+    background: qlineargradient(spread:pad, x1:0.392, y1:0.170364, x2:0.51, y2:0.95,
+     stop:0.00627353 rgba(178, 138, 236, 255), stop:0.984012 rgba(98, 114, 164, 255));
+    min-width: 25px;
+	border-radius: 7px
+}
+QScrollBar::add-line:horizontal {
+    border: none;
+    background:rgb(108, 117, 173);
+    width: 20px;
+	border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: rgb(108, 117, 173);
+    width: 20px;
+	border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal
+{
+     background: white;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+     background: none;
+}
+ QScrollBar:vertical {
+	border: none;
+    background: rgb(52, 59, 72);
+    width: 14px;
+    margin: 21px 0 21px 0;
+	border-radius: 0px;
+ }
+ QScrollBar::handle:vertical {
+	background: qlineargradient(spread:pad, x1:0.392, y1:0.170364, x2:0.51, y2:0.95, stop:0.00627353
+	rgba(178, 138, 236, 255), stop:0.984012 rgba(98, 114, 164, 255));
+    min-height: 25px;
+	border-radius: 7px
+ }
+ QScrollBar::add-line:vertical {
+     border: none;
+    background: rgb(108, 117, 173);
+     height: 20px;
+	border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+ QScrollBar::sub-line:vertical {
+	border: none;
+    background: rgb(108, 117, 173);
+     height: 20px;
+	border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     background: none;
+ }
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+ }
+/* --------------------------------eND OF SCROLL BARS _-----------------------------*/
+
+/* ---------------------------------- STACKED WIDGET -------------------------------*/
+QStackedWidget{background-color: rgb(52, 54, 68);}
+/* ----------------------------------END OF STACKED WIDGET -------------------------------*/
+
+/* ------------------------------------CHECKBOX------------------------------------ */
+QCheckBox::indicator {
+    border: 3px solid rgb(52, 59, 72);
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+    background: rgb(44, 49, 60);
+}
+QCheckBox::indicator:hover {
+    border: 3px solid rgb(58, 66, 81);
+}
+QCheckBox::indicator:checked {
+    background: 3px solid rgb(52, 59, 72);
+	border: 3px solid rgb(52, 59, 72);
+	background-image: url(:/16x16/icons/16x16/cil-check-alt.png);
+}
+/* --------------------------------END OF CHECKBOX------------------------------------ */
+
+/* ----------------------------------RADIO BUTTON------------------------------------ */
+QRadioButton::indicator {
+    border: 3px solid rgb(52, 59, 72);
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+    background: rgb(44, 49, 60);
+}
+QRadioButton::indicator:hover {
+    border: 3px solid rgb(58, 66, 81);
+}
+QRadioButton::indicator:checked {
+    background: 3px solid rgb(94, 106, 130);
+	border: 3px solid rgb(52, 59, 72);
+}
+/* ------------------------------END OF RADIO BUTTON------------------------------------ */
+
+/* ---------------------------------- COMBOBOX-------------------------------------------*/
+QComboBox, QFontComboBox {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	border: 2px solid rgb(27, 29, 35);
+	padding: 5px;
+	padding-left: 10px;
+}
+QComboBox:hover, QFontComboBox:hover{
+	border: 2px solid rgb(64, 71, 88);
+}
+QComboBox::drop-down, QFontComboBox::drop-down{
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 25px;
+	border-left-width: 3px;
+	border-left-color: rgba(39, 44, 54, 150);
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-image: url(:/16x16/icons/16x16/cil-arrow-bottom.png);
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+QComboBox QAbstractItemView, QFontComboBox QAbstractItemView {
+	color: rgb(85, 170, 255);
+	background-color: rgb(27, 29, 35);
+	padding: 10px;
+	selection-background-color: rgb(39, 44, 54);
+}
+/* ---------------------------------- END OF COMBOBOX-------------------------------------------*/
+
+/* ---------------------------------- FONT COMBOBOX-------------------------------------------*/
+QFontComboBox {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	border: 2px solid rgb(27, 29, 35);
+	padding: 5px;
+	padding-left: 10px;
+}
+QFontComboBox:hover{
+	border: 2px solid rgb(64, 71, 88);
+}
+QFontComboBox::drop-down{
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 25px;
+	border-left-width: 3px;
+	border-left-color: rgba(39, 44, 54, 150);
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-image: url(:/16x16/icons/16x16/cil-arrow-bottom.png);
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+QFontComboBox QAbstractItemView {
+	color: rgb(85, 170, 255);
+	background-color: rgb(27, 29, 35);
+	padding: 10px;
+	selection-background-color: rgb(39, 44, 54);
+}
+/* ---------------------------------- END OF FONT COMBOBOX-------------------------------------------*/
+
+/*----------------------------------QTABWIDGET-----------------------------------------------*/
+QTabWidget::pane { /* The tab widget frame */
+    border-top: 0 solid;
+}
+QTabWidget::tab-bar {
+    left: 5px; /* move to the right by 5px */
+	min-height:20px;
+    padding: 10px 2px;
+}
+QTabWidget::tab-bar {
+    left: 5px; /* move to the right by 5px */
+	min-height:20px;
+    padding: 10px 2px;
+}
+QTabBar::tab {
+    background: rgb(88, 91, 115);
+    border: 0px solid;
+     /*border-bottom-color: #C2C7CB; same as the pane color */
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-width: 8ex;
+	min-height:40px;
+    padding: 20px 1px;
+	font: 25 8pt "Roboto Light";
+	color: white;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: qlineargradient(spread:pad, x1:0.125, y1:0.562409, x2:0.51, y2:0.95, stop:0.00627353
+    rgba(178, 138, 236, 255), stop:0.984012 rgba(98, 114, 164, 255));
+}
+QTabBar::tab:selected {
+    margin-top:-4px;
+	margin-bottom:-4px;
+}
+QTabBar::tab:!selected {
+    margin-right: 2px; /* make non-selected tabs look smaller */
+}
+/*-------------------------------------END OF QTABWIDGET---------------------------------------*/
+
+/*----------------------------------SETTINGS FRAME------------------------------------------*/
+QFrame#frame_50, QFrame#frame_51 {
+background-color:none;
+border:none;
+border-right: 1px solid
+qlineargradient(spread:pad, x1:0.392, y1:0.170364, x2:0.51, y2:0.95, stop:0.00627353
+rgba(178, 138, 236, 255), stop:0.984012 rgba(98, 114, 164, 255));
+}
+/*-----------------------------------END OF SETTINGS FRAME-----------------------------------*/
+
+/*-----------------------------------QspinBox-----------------------------------*/
+QSpinBox {
+	color: #a9b7c6;
+	background-color: #1e1d23;
+}
+/*-----------------------------------End of QSpinBox-----------------------------------*/
